@@ -1,0 +1,372 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    background-color: antiquewhite;
+}
+
+.plate {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-color: #82AC01;
+    box-shadow: 20px 20px #A3A3A3;
+    position: relative;
+}
+
+.banana-leaf {
+    height: 337px;
+    width: 325px;
+    background-color: #007821;
+    padding: 16px;
+    transform: rotate(135deg);
+    position: relative;
+    left: 87px;
+    top: 95px;
+}
+
+.horizantal-lines-1 {
+    position: relative;
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #288E38, rgba(255, 0, 0, 0));
+}
+
+.horizantal-lines-2 {
+    position: relative;
+    border: 0;
+    height: 3px;
+    top: 30px;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #288E38, rgba(255, 0, 0, 0));
+}
+
+.horizantal-lines-3 {
+    position: relative;
+    border: 0;
+    height: 2px;
+    top: 60px;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #288E38, rgba(255, 0, 0, 0));
+}
+
+.horizantal-lines-4 {
+    position: relative;
+    border: 0;
+    height: 3px;
+    top: 90px;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #288E38, rgba(255, 0, 0, 0));
+}
+
+.horizantal-lines-5 {
+    position: relative;
+    border: 0;
+    height: 2px;
+    top: 120px;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #288E38, rgba(255, 0, 0, 0));
+}
+
+
+.horizantal-lines-6 {
+    position: relative;
+    border: 0;
+    height: 3px;
+    top: 150px;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #288E38, rgba(255, 0, 0, 0));
+}
+
+
+.horizantal-lines-7 {
+    position: relative;
+    border: 0;
+    height: 2px;
+    top: 180px;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #288E38, rgba(255, 0, 0, 0));
+}
+
+.horizantal-lines-8 {
+    position: relative;
+    border: 0;
+    height: 2px;
+    top: 210px;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #288E38, rgba(255, 0, 0, 0));
+}
+
+.horizantal-lines-9 {
+    position: relative;
+    border: 0;
+    height: 3px;
+    top: 240px;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #288E38, rgba(255, 0, 0, 0));
+}
+
+.horizantal-lines-10 {
+    position: relative;
+    border: 0;
+    height: 3px;
+    top: 270px;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), #288E38, rgba(255, 0, 0, 0));
+} 
+
+
+.dosa {
+    height: 111px;
+    width: 681px;
+    border-radius: 12% / 89px 100px 0 0;
+    background-color: #F8C97B;
+    position: relative;
+    transform: rotate(-75deg);
+    top: -8rem;
+    left: 0rem;
+}
+
+div[class*="dos-dote"] {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    position: absolute;
+    filter: blur(1px);
+}
+
+.dosa-curve-1 {
+    width: 150px;
+    height: 100px;
+    border-radius: 37%;
+    border-top: 15px solid #EFA95D;
+    transform: rotate(310deg);
+    position: absolute;
+    left: 65px;
+    top: 60px;
+    clip-path: polygon(119% 0, 81% 50%, 56% 100%, 3% 146%, 52% 50%, 21% 0);
+}
+
+.dosa-curve-2 {
+    width: 150px;
+    height: 100px;
+    border-radius: 50%;
+    border-top: 20px solid #EFA95D;
+    transform: rotate(310deg);
+    position: absolute;
+    left: 215px;
+    top: 60px;
+    clip-path: polygon(178% 0, 81% 50%, 56% 100%, 3% 146%, 52% 50%, 21% 0);
+}
+
+
+.dosa-curve-3 {
+    width: 150px;
+    height: 100px;
+    border-radius: 50%;
+    border-top: 20px solid #EFA95D;
+    transform: rotate(230deg) scaleY(-1);
+    position: absolute;
+    left: 380px;
+    top: 60px;
+    clip-path: polygon(170% 0, 81% 50%, 56% 100%, 3% 146%, 52% 50%, 21% 0);
+}
+
+.dosa-curve-4 {
+    width: 150px;
+    height: 100px;
+    border-radius: 37%;
+    border-top: 15px solid #EFA95D;
+    transform: rotate(230deg) scaleY(-1);
+    position: absolute;
+    left: 530px;
+    top: 60px;
+    clip-path: polygon(119% 0, 81% 50%, 56% 100%, 3% 146%, 52% 50%, 21% 0);
+}
+
+.dos-dote-2 {
+    background-color: #EFA95D;
+    left: 250px;
+    top: 20px;
+}
+
+.dos-dote-3 {
+    background-color: #EFA95D;
+    left: 70px;
+    top: 55px;
+}
+
+
+.dos-dote-4 {
+    background-color: #EFA95D;
+    left: 545px;
+    top: 65px;
+}
+
+
+.dos-dote-5 {
+    background-color: #EFA95D;
+    left: 373px;
+    top: 65px;
+}
+
+.sambar {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid white;
+    left: 6rem;
+    top: 15rem;
+    background-color: #D85C00;
+}
+
+.sambar-stick-1 {
+    width: 25px;
+    height: 115px;
+    background-color: #F2CB04;
+    transform: rotate(-15deg);
+    position: absolute;
+    left: 70px;
+    top: 50px;
+    filter: blur(0.5px);
+}
+
+.sambar-stick-1::before {
+    content: "";
+    width: 10px;
+    height: 115px;
+    background-color: #CC9D00;
+    position: absolute;
+    left: 7px;
+}
+
+
+.sambar-stick-2 {
+    width: 25px;
+    height: 90px;
+    background-color: #DC7B03;
+    transform: rotate(-65deg);
+    position: absolute;
+    left: 130px;
+    top: 50px;
+    filter: blur(0.5px);
+}
+
+.sambar-stick-2::before {
+    content: "";
+    width: 10px;
+    height: 90px;
+    background-color: #D47000;
+    position: absolute;
+    left: 7px;
+}
+
+.sambar-stick-3 {
+    width: 25px;
+    height: 45px;
+    background-color: #DC7B03;
+    transform: rotate(6deg);
+    position: absolute;
+    left: 25px;
+    top: 85px;
+    filter: blur(0.5px);
+}
+
+.sambar-stick-3::before {
+    content: "";
+    width: 10px;
+    height: 45px;
+    background-color: #D47000;
+    position: absolute;
+    left: 7px;
+}
+
+.chilli {
+    position: absolute;
+    width: 47px;
+    height: 14px;
+    background-color: #C0041D;
+    border-top-left-radius: 135%;
+    left: 101px;
+    top: 30px;
+    transform: rotate(46deg);
+}
+
+.sambar-dot {
+    height: 5px;
+    width: 5px;
+    background-color: brown;
+    border-radius: 50%;
+    filter: blur(0.5px);
+    position: absolute;
+    left: 55px;
+    top: 100px;
+    box-shadow: -42px 0px 0px 0px brown, -24px 0px 0px 0px brown, -19px -15px 0px 0px brown, 35px -35px 0px 0px brown, 45px -39px 0px 0px brown, 37px -50px 0px 0px brown, 62px 35px 0px 0px brown, 53px 28px 0px 0px brown, 49px 16px 0px 0px brown, 71px 23px 0px 0px brown, 102px -43px 0px 0px brown, 99px -29px 0px 0px brown, 90px -40px 0px 0px brown, 92px -56px 0px 0px brown;
+}
+
+.curry-leave {
+    height: 25px;
+    width: 25px;
+    border-radius: 25px 0px;
+    background-color: #012B0C;
+    position: absolute;
+    left: 140px;
+    top: 140px;
+    box-shadow: -25px -61px 0px 0px #012B0C;
+    filter: blur(0.5px);
+}
+
+.chutney {
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    border: 10px solid white;
+    background-color: #FDBC52;
+    left: 180px;
+    bottom: 311px;
+    position: absolute;
+    box-shadow: 5px 5px #232d2b;
+}
+
+.chutney-leave {
+    height: 25px;
+    width: 23px;
+    border-radius: 25px 0px;
+    background-color: #46771F;
+    position: absolute;
+    left: 12px;
+    top: 32px;
+    box-shadow: 43px -15px 0px -3px #46771F;
+    transform: rotate(32deg);
+}
+
+.chutney-chilli {
+    position: absolute;
+    width: 20px;
+    height: 7px;
+    background-color: #C0041D;
+    border-top-left-radius: 135%;
+    left: 34px;
+    top: 57px;
+    transform: rotate(46deg);
+}
+
+.chutney-dot {
+    height: 3px;
+    width: 3px;
+    height: 2px;
+    width: 2px;
+    border-radius: 50%;
+    background-color: #090909;
+    position: absolute;
+    left: 45px;
+    top: 48px;
+    box-shadow: -21px -5px 0px 0.2px black, -6px -9px 0px -0.5px black, -16px -3px 0px -0.3px black, -13px -14px 0px 0px black, -19px 0px 0px 0px black, 6px -8px 0px 0.1px black, -13px -23px 0px 0px black, -3px -19px 0px 0px black, -14px 9px 0px 0px black, 9px 7px 0px 0px black, 4px -14px 0px 0px black, 13px 0px 0px 0px black, -9px 0px 0px 0px black;
+}
+
+span {
+    font-size: small;
+}
+.artist {
+    position: absolute;
+    left: 6rem;
+    top: 240px;
+    font-family: "Dancing Script", cursive;
+    font-size: x-large;
+}
